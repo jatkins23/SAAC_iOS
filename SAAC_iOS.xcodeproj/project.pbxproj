@@ -15,6 +15,7 @@
 		FC5F85BC1C933E0D00ABB754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5F85BA1C933E0D00ABB754 /* LaunchScreen.storyboard */; };
 		FC5F85C71C933E0E00ABB754 /* SAAC_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5F85C61C933E0E00ABB754 /* SAAC_iOSTests.swift */; };
 		FC5F85D21C933E0E00ABB754 /* SAAC_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5F85D11C933E0E00ABB754 /* SAAC_iOSUITests.swift */; };
+		FCF617F31C9346E600B5653C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF617F21C9346E600B5653C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FC5F85CD1C933E0E00ABB754 /* SAAC_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAAC_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5F85D11C933E0E00ABB754 /* SAAC_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAAC_iOSUITests.swift; sourceTree = "<group>"; };
 		FC5F85D31C933E0E00ABB754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF617F21C9346E600B5653C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FC5F85BA1C933E0D00ABB754 /* LaunchScreen.storyboard */,
 				FC5F85BD1C933E0D00ABB754 /* Info.plist */,
 				FC5F85B51C933E0D00ABB754 /* SAAC_iOS.xcdatamodeld */,
+				FCF617F21C9346E600B5653C /* ProfileViewController.swift */,
 			);
 			path = SAAC_iOS;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				FC5F85B11C933E0D00ABB754 /* ViewController.swift in Sources */,
 				FC5F85B71C933E0D00ABB754 /* SAAC_iOS.xcdatamodeld in Sources */,
+				FCF617F31C9346E600B5653C /* ProfileViewController.swift in Sources */,
 				FC5F85AF1C933E0D00ABB754 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				FC5F85D81C933E0E00ABB754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC5F85D91C933E0E00ABB754 /* Build configuration list for PBXNativeTarget "SAAC_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				FC5F85DB1C933E0E00ABB754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC5F85DC1C933E0E00ABB754 /* Build configuration list for PBXNativeTarget "SAAC_iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				FC5F85DE1C933E0E00ABB754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

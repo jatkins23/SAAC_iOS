@@ -83,7 +83,7 @@
                         <outlet property="EmailTextField" destination="q3l-oV-In0" id="9tc-Xe-0s2"/>
                         <outlet property="NameTextField" destination="4Pq-bH-UgW" id="65Y-N5-Lie"/>
                         <outlet property="ProfilePhoto" destination="cyO-GK-rND" id="fp1-eP-BYe"/>
-                        <outlet property="UsernameTextField" destination="4Pq-bH-UgW" id="hvn-TA-nlB"/>
+                        <outlet property="UsernameTextField" destination="4Om-7q-EXX" id="iVO-wR-pol"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sgg-QX-H0s" userLabel="First Responder" sceneMemberID="firstResponder"/>
