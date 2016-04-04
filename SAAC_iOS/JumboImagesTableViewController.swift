@@ -14,6 +14,7 @@ class JumboImagesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadSampleData()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -26,12 +27,6 @@ class JumboImagesTableViewController: UITableViewController {
         
         cells += [sample]
     }
-    
-    
-    
-    
-    
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
