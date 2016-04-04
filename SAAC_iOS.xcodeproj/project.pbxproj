@@ -84,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC0798DD1CB1FCE5008D9DBF /* JumboImagesView */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E2B501CB1DE9300A97A84 /* JumboImagesTableViewController.swift */,
+				FC9E2B521CB1DF7400A97A84 /* JumboImages.swift */,
+				FC9E2B541CB1DFA800A97A84 /* JumboImagesTableViewCell.swift */,
+			);
+			name = JumboImagesView;
+			sourceTree = "<group>";
+		};
 		FC5F85A21C933E0D00ABB754 = {
 			isa = PBXGroup;
 			children = (
@@ -110,9 +120,7 @@
 				FC5F85AE1C933E0D00ABB754 /* AppDelegate.swift */,
 				FC5F85B01C933E0D00ABB754 /* ViewController.swift */,
 				FC5F85B21C933E0D00ABB754 /* Main.storyboard */,
-				FC9E2B501CB1DE9300A97A84 /* JumboImagesTableViewController.swift */,
-				FC9E2B521CB1DF7400A97A84 /* JumboImages.swift */,
-				FC9E2B541CB1DFA800A97A84 /* JumboImagesTableViewCell.swift */,
+				FC0798DD1CB1FCE5008D9DBF /* JumboImagesView */,
 				FC5F85B81C933E0D00ABB754 /* Assets.xcassets */,
 				FC5F85BA1C933E0D00ABB754 /* LaunchScreen.storyboard */,
 				FC5F85BD1C933E0D00ABB754 /* Info.plist */,

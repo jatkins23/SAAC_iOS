@@ -10,13 +10,22 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     @IBOutlet weak var ProfilePhoto: UIImageView!
-    @IBOutlet weak var UsernameTextField: UITextField!
+    @IBOutlet weak var UsernameLabel: UILabel!
+    @IBOutlet weak var PointsLabel: UILabel!
     @IBOutlet weak var NameTextField: UITextField!
     @IBOutlet weak var EmailTextField: UITextField!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let username = "Ryan-0"
+        let points = 20
+        
+        UsernameLabel.text = username
+        PointsLabel.text = String(points)
+        ProfilePhoto.image = UIImage(named: "kid_playing")
+        NameTextField.text = "Ryan Osgood"
+        EmailTextField.text = "dafksdjl"
         
         // Do any additional setup after loading the view.
     }
