@@ -15,6 +15,9 @@
 		FC5F85BC1C933E0D00ABB754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5F85BA1C933E0D00ABB754 /* LaunchScreen.storyboard */; };
 		FC5F85C71C933E0E00ABB754 /* SAAC_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5F85C61C933E0E00ABB754 /* SAAC_iOSTests.swift */; };
 		FC5F85D21C933E0E00ABB754 /* SAAC_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5F85D11C933E0E00ABB754 /* SAAC_iOSUITests.swift */; };
+		FC9E2B511CB1DE9300A97A84 /* JumboImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E2B501CB1DE9300A97A84 /* JumboImagesTableViewController.swift */; };
+		FC9E2B531CB1DF7400A97A84 /* JumboImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E2B521CB1DF7400A97A84 /* JumboImages.swift */; };
+		FC9E2B551CB1DFA800A97A84 /* JumboImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E2B541CB1DFA800A97A84 /* JumboImagesTableViewCell.swift */; };
 		FCF617F31C9346E600B5653C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF617F21C9346E600B5653C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,9 @@
 		FC5F85CD1C933E0E00ABB754 /* SAAC_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAAC_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5F85D11C933E0E00ABB754 /* SAAC_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAAC_iOSUITests.swift; sourceTree = "<group>"; };
 		FC5F85D31C933E0E00ABB754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9E2B501CB1DE9300A97A84 /* JumboImagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumboImagesTableViewController.swift; sourceTree = "<group>"; };
+		FC9E2B521CB1DF7400A97A84 /* JumboImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumboImages.swift; sourceTree = "<group>"; };
+		FC9E2B541CB1DFA800A97A84 /* JumboImagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumboImagesTableViewCell.swift; sourceTree = "<group>"; };
 		FCF617F21C9346E600B5653C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +110,9 @@
 				FC5F85AE1C933E0D00ABB754 /* AppDelegate.swift */,
 				FC5F85B01C933E0D00ABB754 /* ViewController.swift */,
 				FC5F85B21C933E0D00ABB754 /* Main.storyboard */,
+				FC9E2B501CB1DE9300A97A84 /* JumboImagesTableViewController.swift */,
+				FC9E2B521CB1DF7400A97A84 /* JumboImages.swift */,
+				FC9E2B541CB1DFA800A97A84 /* JumboImagesTableViewCell.swift */,
 				FC5F85B81C933E0D00ABB754 /* Assets.xcassets */,
 				FC5F85BA1C933E0D00ABB754 /* LaunchScreen.storyboard */,
 				FC5F85BD1C933E0D00ABB754 /* Info.plist */,
@@ -265,7 +274,10 @@
 				FC5F85B11C933E0D00ABB754 /* ViewController.swift in Sources */,
 				FC5F85B71C933E0D00ABB754 /* SAAC_iOS.xcdatamodeld in Sources */,
 				FCF617F31C9346E600B5653C /* ProfileViewController.swift in Sources */,
+				FC9E2B511CB1DE9300A97A84 /* JumboImagesTableViewController.swift in Sources */,
+				FC9E2B551CB1DFA800A97A84 /* JumboImagesTableViewCell.swift in Sources */,
 				FC5F85AF1C933E0D00ABB754 /* AppDelegate.swift in Sources */,
+				FC9E2B531CB1DF7400A97A84 /* JumboImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
