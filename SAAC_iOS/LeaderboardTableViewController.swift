@@ -10,14 +10,23 @@ import UIKit
 
 class LeaderboardTableViewController: UITableViewController {
 
+    var cells = [UserLeaderboard]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadSampleData()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    }
+    
+    func loadSampleData() {
+        let sample = UserLeaderboard(UserName: "jatkins23", UserImage: UIImage(named: "300x302.jpg")!, Score: 1, Position: 1)!
+        
+        cells += [sample]
     }
 
     override func didReceiveMemoryWarning() {
