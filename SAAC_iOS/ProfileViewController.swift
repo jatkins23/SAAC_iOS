@@ -21,18 +21,30 @@ class ProfileViewController: UIViewController {
         let username = "Ryan-0"
         let points = 20
         
+        ProfilePhoto.image = UIImage(named: "kid-playing")
+        
         UsernameLabel.text = username
         PointsLabel.text = String(points)
-        ProfilePhoto.image = UIImage(named: "kid_playing")
         NameTextField.text = "Ryan Osgood"
         EmailTextField.text = "dafksdjl"
-        
+        ProfilePhoto.image = loadFillMurray(300, height: 300)
         // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func loadFillMurray(width: Int, height: Int) -> UIImage {
+
+        //        let url = NSURL(string: ("http://fillmurray.com/" + String(HEIGHT) + String(WIDTH)))
+        let url = NSURL(string: "http://fillmurray.com/" + String(width) + "/" + String(height))
+        let data = NSData(contentsOfURL: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check
+        
+        return UIImage(data: data!)!
+
+        
     }
     
     
