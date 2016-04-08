@@ -46,15 +46,20 @@ class LeaderboardTableViewController: UITableViewController {
         return cells.count
     }
 
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cellIdentifier = "LeaderboardImageViewCell"
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! LeaderboardTableViewCell
+        
+        let leaderboardMember = cells[indexPath.row]
 
         // Configure the cell...
+        cell.UsernameButton.setTitle(leaderboardMember.UserName, forState: .Normal)
+        cell.PointsLabel.text = "12"
+        cell.RankLabel.text = String(leaderboardMember.Position)
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
