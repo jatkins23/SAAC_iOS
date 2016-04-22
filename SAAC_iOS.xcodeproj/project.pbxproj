@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0322C71CB840FF00A11EB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0322C61CB840FF00A11EB1 /* Extensions.swift */; };
 		FC0798DF1CB20633008D9DBF /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0798DE1CB20633008D9DBF /* CalendarTableViewController.swift */; };
 		FC0798E11CB20668008D9DBF /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0798E01CB20668008D9DBF /* CalendarTableViewCell.swift */; };
 		FC0798E51CB206D9008D9DBF /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0798E41CB206D9008D9DBF /* LeaderboardTableViewCell.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0322C61CB840FF00A11EB1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FC0798DE1CB20633008D9DBF /* CalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewController.swift; sourceTree = "<group>"; };
 		FC0798E01CB20668008D9DBF /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
 		FC0798E41CB206D9008D9DBF /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				FC5F85BD1C933E0D00ABB754 /* Info.plist */,
 				FC5F85B51C933E0D00ABB754 /* SAAC_iOS.xcdatamodeld */,
 				FCF617F21C9346E600B5653C /* ProfileViewController.swift */,
+				FC0322C61CB840FF00A11EB1 /* Extensions.swift */,
 				FC0798DD1CB1FCE5008D9DBF /* JumboImagesView */,
 				FC0798E81CB20701008D9DBF /* LeaderboardView */,
 				FC0798E31CB206C2008D9DBF /* CalendarView */,
@@ -322,6 +325,7 @@
 				FCF617F31C9346E600B5653C /* ProfileViewController.swift in Sources */,
 				FC9E2B511CB1DE9300A97A84 /* JumboImagesTableViewController.swift in Sources */,
 				FC9E2B551CB1DFA800A97A84 /* JumboImagesTableViewCell.swift in Sources */,
+				FC0322C71CB840FF00A11EB1 /* Extensions.swift in Sources */,
 				FC5F85AF1C933E0D00ABB754 /* AppDelegate.swift in Sources */,
 				FC9E2B531CB1DF7400A97A84 /* JumboImages.swift in Sources */,
 				FC0798DF1CB20633008D9DBF /* CalendarTableViewController.swift in Sources */,

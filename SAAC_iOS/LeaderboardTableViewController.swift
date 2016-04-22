@@ -24,7 +24,7 @@ class LeaderboardTableViewController: UITableViewController {
     }
     
     func loadSampleData() {
-        let sample = UserLeaderboard(UserName: "jatkins23", UserImage: UIImage(named: "300x302.jpg")!, Score: 1, Position: 1)!
+        let sample = UserLeaderboard(UserName: "jatkins23", UserImage: UIImage(named:"kid_playing")!, Score: 13, Position: 1)!
         
         cells += [sample]
     }
@@ -47,7 +47,7 @@ class LeaderboardTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cellIdentifier = "LeaderboardImageViewCell"
+        let cellIdentifier = "LeaderboardTableViewCell"
         
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! LeaderboardTableViewCell
         
@@ -55,7 +55,7 @@ class LeaderboardTableViewController: UITableViewController {
 
         // Configure the cell...
         cell.UsernameButton.setTitle(leaderboardMember.UserName, forState: .Normal)
-        cell.PointsLabel.text = "12"
+        cell.PointsLabel.text = String(leaderboardMember.Score)
         cell.RankLabel.text = String(leaderboardMember.Position)
 
         return cell
