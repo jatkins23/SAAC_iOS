@@ -60,7 +60,7 @@ class JumboImagesTableViewController: UITableViewController {
         //cell.TimeStamp.setValue(JumboImage.TimeStamp, forKey: <#T##String#>)
         cell.EventImage.image = JumboImage.EventImage
         cell.ImageCaption.text = JumboImage.ImageCaption
-        cell.LikesImage.image = UIImage(named: "Likes_icon")!
+        cell.LikesImage.image = UIImage(named: "Like_icon")!
         
         return cell
     }

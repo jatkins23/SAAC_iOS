@@ -26,6 +26,7 @@
 		FC9E2B511CB1DE9300A97A84 /* JumboImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E2B501CB1DE9300A97A84 /* JumboImagesTableViewController.swift */; };
 		FC9E2B531CB1DF7400A97A84 /* JumboImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E2B521CB1DF7400A97A84 /* JumboImages.swift */; };
 		FC9E2B551CB1DFA800A97A84 /* JumboImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E2B541CB1DFA800A97A84 /* JumboImagesTableViewCell.swift */; };
+		FCDABD1E1CD3C64E0047E17F /* Like_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDABD1D1CD3C64E0047E17F /* Like_icon.png */; };
 		FCF617F31C9346E600B5653C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF617F21C9346E600B5653C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		FC9E2B501CB1DE9300A97A84 /* JumboImagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumboImagesTableViewController.swift; sourceTree = "<group>"; };
 		FC9E2B521CB1DF7400A97A84 /* JumboImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumboImages.swift; sourceTree = "<group>"; };
 		FC9E2B541CB1DFA800A97A84 /* JumboImagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumboImagesTableViewCell.swift; sourceTree = "<group>"; };
+		FCDABD1D1CD3C64E0047E17F /* Like_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Like_icon.png; sourceTree = "<group>"; };
 		FCF617F21C9346E600B5653C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 				FC5F85B01C933E0D00ABB754 /* ViewController.swift */,
 				FC5F85B21C933E0D00ABB754 /* Main.storyboard */,
 				FC5F85B81C933E0D00ABB754 /* Assets.xcassets */,
+				FCDABD1D1CD3C64E0047E17F /* Like_icon.png */,
 				FC01C5721CCAAE2800AB2E3E /* shapes.svg */,
 				FC7850121CB31B200080BAC5 /* 300x302.jpg */,
 				FC5F85BA1C933E0D00ABB754 /* LaunchScreen.storyboard */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC01C5731CCAAE2800AB2E3E /* shapes.svg in Resources */,
+				FCDABD1E1CD3C64E0047E17F /* Like_icon.png in Resources */,
 				FC5F85BC1C933E0D00ABB754 /* LaunchScreen.storyboard in Resources */,
 				FC5F85B91C933E0D00ABB754 /* Assets.xcassets in Resources */,
 				FC7850131CB31B200080BAC5 /* 300x302.jpg in Resources */,
