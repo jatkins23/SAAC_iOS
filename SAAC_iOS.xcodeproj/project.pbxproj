@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940820921CD3CA2C0014C1DA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940820911CD3CA2C0014C1DA /* ImageViewController.swift */; };
 		FC01C5731CCAAE2800AB2E3E /* shapes.svg in Resources */ = {isa = PBXBuildFile; fileRef = FC01C5721CCAAE2800AB2E3E /* shapes.svg */; };
 		FC0322C71CB840FF00A11EB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0322C61CB840FF00A11EB1 /* Extensions.swift */; };
 		FC0798DF1CB20633008D9DBF /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0798DE1CB20633008D9DBF /* CalendarTableViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940820911CD3CA2C0014C1DA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		FC01C5721CCAAE2800AB2E3E /* shapes.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = shapes.svg; sourceTree = "<group>"; };
 		FC0322C61CB840FF00A11EB1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FC0798DE1CB20633008D9DBF /* CalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940820931CD3CA600014C1DA /* Image Selector */ = {
+			isa = PBXGroup;
+			children = (
+				940820911CD3CA2C0014C1DA /* ImageViewController.swift */,
+			);
+			name = "Image Selector";
+			sourceTree = "<group>";
+		};
 		FC0798DD1CB1FCE5008D9DBF /* JumboImagesView */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +176,7 @@
 				FC5F85B51C933E0D00ABB754 /* SAAC_iOS.xcdatamodeld */,
 				FCF617F21C9346E600B5653C /* ProfileViewController.swift */,
 				FC0322C61CB840FF00A11EB1 /* Extensions.swift */,
+				940820931CD3CA600014C1DA /* Image Selector */,
 				FC0798DD1CB1FCE5008D9DBF /* JumboImagesView */,
 				FC0798E81CB20701008D9DBF /* LeaderboardView */,
 				FC0798E31CB206C2008D9DBF /* CalendarView */,
@@ -330,6 +341,7 @@
 				FC0798E51CB206D9008D9DBF /* LeaderboardTableViewCell.swift in Sources */,
 				FC0798E71CB206F8008D9DBF /* LeaderboardTableViewController.swift in Sources */,
 				FC5F85B71C933E0D00ABB754 /* SAAC_iOS.xcdatamodeld in Sources */,
+				940820921CD3CA2C0014C1DA /* ImageViewController.swift in Sources */,
 				FCF617F31C9346E600B5653C /* ProfileViewController.swift in Sources */,
 				FC9E2B511CB1DE9300A97A84 /* JumboImagesTableViewController.swift in Sources */,
 				FC9E2B551CB1DFA800A97A84 /* JumboImagesTableViewCell.swift in Sources */,
