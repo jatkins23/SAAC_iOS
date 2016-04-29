@@ -24,8 +24,10 @@ class JumboImagesTableViewController: UITableViewController {
     
     func loadSampleData() {
         let sample = JumboImages(UserName: "Linus Gordon", UserImage: UIImage(named:"kid_playing")!, TimeStamp:21, Likes: 57, EventImage: UIImage(named:"kid_playing")!, ImageCaption: "Playing Soccer!")!
+        let sample2 = JumboImages(UserName: "Jon Atkins", UserImage: UIImage(named:"kid_playing")!, TimeStamp:45, Likes: 100, EventImage: UIImage(named:"kid_playing")!, ImageCaption: "Playing Soccer!")!
         
         cells += [sample]
+        cells += [sample2]
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,6 +60,7 @@ class JumboImagesTableViewController: UITableViewController {
         //cell.TimeStamp.setValue(JumboImage.TimeStamp, forKey: <#T##String#>)
         cell.EventImage.image = JumboImage.EventImage
         cell.ImageCaption.text = JumboImage.ImageCaption
+        cell.LikesImage.image = UIImage(named: "Likes_icon")!
         
         return cell
     }

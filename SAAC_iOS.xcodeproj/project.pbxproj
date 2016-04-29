@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC01C5731CCAAE2800AB2E3E /* shapes.svg in Resources */ = {isa = PBXBuildFile; fileRef = FC01C5721CCAAE2800AB2E3E /* shapes.svg */; };
 		FC0322C71CB840FF00A11EB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0322C61CB840FF00A11EB1 /* Extensions.swift */; };
 		FC0798DF1CB20633008D9DBF /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0798DE1CB20633008D9DBF /* CalendarTableViewController.swift */; };
 		FC0798E11CB20668008D9DBF /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0798E01CB20668008D9DBF /* CalendarTableViewCell.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC01C5721CCAAE2800AB2E3E /* shapes.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = shapes.svg; sourceTree = "<group>"; };
 		FC0322C61CB840FF00A11EB1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FC0798DE1CB20633008D9DBF /* CalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewController.swift; sourceTree = "<group>"; };
 		FC0798E01CB20668008D9DBF /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				FC5F85B01C933E0D00ABB754 /* ViewController.swift */,
 				FC5F85B21C933E0D00ABB754 /* Main.storyboard */,
 				FC5F85B81C933E0D00ABB754 /* Assets.xcassets */,
+				FC01C5721CCAAE2800AB2E3E /* shapes.svg */,
 				FC7850121CB31B200080BAC5 /* 300x302.jpg */,
 				FC5F85BA1C933E0D00ABB754 /* LaunchScreen.storyboard */,
 				FC5F85BD1C933E0D00ABB754 /* Info.plist */,
@@ -289,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC01C5731CCAAE2800AB2E3E /* shapes.svg in Resources */,
 				FC5F85BC1C933E0D00ABB754 /* LaunchScreen.storyboard in Resources */,
 				FC5F85B91C933E0D00ABB754 /* Assets.xcassets in Resources */,
 				FC7850131CB31B200080BAC5 /* 300x302.jpg in Resources */,
